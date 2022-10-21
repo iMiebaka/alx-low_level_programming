@@ -25,8 +25,11 @@ int main(void)
                 {
                         printf("Fizz");
                 }
-                printf("\n");
-        }
+                else
+                {
+                        printf("%d ", i);
+                }
+         }
 
         return 0;
 }
